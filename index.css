@@ -1,0 +1,392 @@
+*{
+	padding:0;
+	margin:0;
+}
+body {
+	color:black;
+	height:100%;
+	width:100%;
+}
+.maintxt {
+	
+	font-family:agency fb;
+	font-size:300px;
+	font-weight:bold;
+	position:absolute;
+	top:150px;
+	left:300px;
+	letter-spacing:10px;
+	color:white;
+	animation:main 10s linear infinite;
+}
+@keyframes main {
+	0% {
+		color:white;
+	}
+	50% {
+		color:black
+	}
+	100% {
+		color:white;
+	}
+}
+.bg {
+	
+	height:662px;
+	animation:bg 10s ease infinite;
+}
+
+.subtxt {
+	position:absolute;
+	font-family:script mt;
+	font-size:150px;
+	top:50px;
+	left:150px;
+	color:white;
+	animation:main 10s linear infinite;
+}
+@keyframes bg {
+	0%{
+		background-color:#E74C3C;
+	}
+	25%{
+		background-color:cyan;
+	}
+	50%{
+		background-color:#AF7AC5;
+	}
+	75% {
+		background-color:khaki;
+	}
+	100%{
+		background-color:#E74C3C;
+	}
+}
+.nav {
+	position:fixed;
+	height:600px;
+	width:100%;
+	top:-600px;
+	background-color:rgba(255,255,255,0.98);
+	border-radius:0px 0px 30px 30px;
+	transition:1s ease all;
+	z-index:100;
+}
+.nav:hover{
+	position:fixed;
+	height:600px;
+	width:100%;
+	top:0px;
+	background-color:rgba(255,255,255,0.90);
+	border-radius:0px 0px 30px 30px;
+}
+.religion,.acknowledgement,.realization,.creators {
+	height:550px;
+	width:280px;
+	float:left;
+	margin-left:50px;
+	margin-top:25px;
+	font-family:trebuchet ms;
+	font-size:50px;
+	line-height:40px;
+	text-align:center;
+	outline:5px solid color black;
+	transition:0.5s all ease;
+	border-radius:5px;
+	font-variant:small-caps;
+	
+	}
+.religion {
+	background-color:black;
+	background-size:cover;	
+}
+	}
+@keyframes change{
+	25% {
+		background-image:url(index/relbg2.jpg);
+	}
+	50% {
+		background-image:url(index/relbg3.jpg);
+	}
+	75% {
+		background-image:url(index/relbg4.jpg);
+	}
+	100% {
+		background-image:url(index/relbg.jpg);
+	}
+		
+}
+.religion  p  {
+	transition:0s;
+	padding-top:40px;
+}
+.religion:hover {
+	transform:scale(1.1);
+	font-weight:bold;
+	font-size:70px;
+	}
+.religion a {
+	text-decoration:none;
+	color:white;
+	display:block;
+	border:5px solid black;
+	height:540px;
+	
+}
+.realization{
+	background-image:url(index/real.jpg);
+	background-position:-220px;
+	
+	}
+.realization p { 		
+	padding-top:40px;
+
+}
+.realization:hover {
+	transform:scale(1.1);
+	font-weight:bold;
+		font-size:55px;}
+.acknowledgement{
+	background-color:black;
+	font-size:50px;
+	padding-top:200px;
+	box-sizing:border-box;
+	border:5px solid black;
+	}
+. p {
+	padding-top:40px;
+
+}
+.acknowledgement:hover {
+	transform:scale(1.1);
+	font-weight:bold;
+		font-size:55px;
+	}
+
+.acknowledgement a {
+	height:340px;
+	}
+.creators{
+	background-image:url(index/creator.png);
+	background-position:-20px;
+	background-repeat:no-repeat;
+	color
+	}
+.creators p {
+	padding-top:40px;
+	
+}
+.creators:hover {
+	transform:scale(1.1);
+	font-weight:bold;
+	}
+.creators a {
+	color:gray
+}
+.bg2 .title {
+	font-size:80px;
+	font-family:Lucida Handwriting;
+	border-top:15px double;
+	border-bottom:15px double;
+	border-color:black;
+	position:absolute;
+	width:1000px;
+	top:750px;
+	text-align:center;
+	color:white;
+	left:175px;
+	text-shadow:0px 0px 10px black;
+	
+}
+.bg2 .bgtitle {
+	width:100%;
+	background-image:url(index/bg.jpg);
+	height:400px;
+	background-size:100%;
+	outline-width:5px;
+	outline-color:white;
+	outline-style:inset;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro{
+	width:500px;
+	height:550px;
+	background-color:rgba(0,0,0,0.1);
+	position:absolute;
+	top:1100px;
+	left:400px;
+	padding:20px;
+	border-radius:5px;
+	z-index:1;
+	}
+body {
+	background-color:white;
+}
+.intro h1 	{
+	font-size:51px;
+	font-family:helvetica;
+	padding-left:20px;
+	top:20px;
+	position:relative;
+	
+}
+.intro p {
+	font-family:calibri;
+	font-size:21px;
+	text-indent:20px;
+	line-height:27px;
+	position:relative;
+	top:60px;
+	text-align:justify;
+	}
+
+
+.bg3 {
+	height:700px;
+	position:relative;
+	width:100%;
+}
+footer {
+	height:400px;
+	position:relative;
+	top:-26px;
+	z-index:1;
+	background-color:black;
+	border-top:25px solid white;
+	color:white;
+}
+img {
+	height:80px;
+}
+.fb {
+	position:absolute;
+	top:40px;
+	left:100px;
+}
+.twitter {
+	position:absolute;
+	top:270px;
+	left:100px;
+}
+.gmail {
+	position:absolute;
+	top:150px;
+	left:100px;
+}
+h4 ,h5 ,h6 {
+	font-size:16px;
+	text-decoration:underline;
+	color:blue;
+	}
+footer h4 {
+	position:absolute;
+	top:300px;
+	left:250px;
+}
+footer h5 {
+	position:absolute;
+	top:185px;
+	left:250px;
+}
+footer h6 {
+	position:Absolute;
+	top:80px;
+	left:250px;
+}
+a {
+	text-decoration:none;
+	color:white;
+}
+footer ul {
+	font-family:agency fb;
+	font-size:40px;
+	position:absolute;
+	right:50px;
+	top:40px;
+	font-weight:bold;
+}
+footer ul li {
+	font-family:arial;
+	font-size:20px;
+	line-height:40px;
+	list-style-type:none;
+	right:200px;
+	}
+.line1 {
+	height:300px;
+	width:5px;
+	background-color:white;
+	position:relative;
+	left:600px;
+	top:50px;
+}
+.line2 {
+	height:300px;
+	width:5px;
+	background-color:white;
+	position:absolute;
+	right:400px;
+	top:48px;
+	
+}
+table {
+    border-collapse: collapse;
+    width: 40%;
+	position:absolute;
+	top:1750px;
+	z-index:1;
+	left:50px;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+	font-family:agency fb;
+	font-size:20px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color:rgba(75,80,187,0.5);
+    color: white;
+	font-family:calibri;
+}
+.ayokona {
+	font-family:helvetica;
+	font-size:20px;
+	position:Absolute;
+	top:70px;
+	left:650px;
+	text-decoration:underline;
+	line-height:50px;
+}
+.auconah {
+	font-family:consolas;
+	font-size:20px;
+	text-align:center;
+	right:0px;
+	top:320px;
+	width:400px;
+	position:absolute;
+}
+footer .ayokona a {
+	text-decoration:none;
+}
+.nav:after {
+	content:"";
+	height:60px;
+	width:60px;
+	position:absolute;
+	bottom:-30px;
+	border-radius:50%;
+	background-color:rgba(0,0,0,0.58);
+	right:633px;
+	z-index:10;
+}
+.nav:after:hover{
+	background-color:transparent;
+}

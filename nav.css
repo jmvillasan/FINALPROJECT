@@ -1,0 +1,92 @@
+*{
+	padding:0;
+	margin:0;
+}
+nav {
+	height:50px;
+	width:100%;
+	background-color:rgba(0,0,0,0.8);
+	border-bottom:solid yellow 5px;
+	position:fixed;
+	z-index:1000;
+	top:0px;
+}
+.home:hover +.show {
+	visibility:visible;
+}
+
+nav div {
+	float:left;
+	
+}
+.creators {
+	position:absolute;
+	right:11px;
+	padding-top:5px;
+	height:45px;
+		transition:.5s ease;
+}
+.acknowlegement:hover {
+	background-color:black;
+}
+.acknowlegement {
+	position:absolute;
+	right:140px;
+	padding-top:5px;
+	height:45px;
+	transition:.5s ease;	
+}
+.realization {
+	position:absolute;
+	height:50px;
+	right:398px;
+	height:45px;
+	padding-top:5px;
+		transition:.5s ease;
+}
+.religion {
+	position:absolute;
+	right:562px;
+	padding-top:5px;
+}
+.creators:hover {
+	background-color:black;
+}
+.realization:hover {
+	background-color:black;
+}
+nav div a {
+	text-decoration:none;
+	color:white;
+	font-family:segoe ui;
+	font-weight:bold;
+	font-size:25px;
+	padding:10px;
+	height:50px;
+	letter-spacing:1px;
+	
+}
+
+.show1 {
+	color:white;
+	font-family:segoe ui;
+	font-weight:bold;
+	font-size:25px;
+	padding-left:-2px;
+	position:absolute;
+	left:22px;
+	padding-top:5px;
+	letter-spacing:2px;
+	animation:type 2s steps(60,end);
+	overflow:hidden
+}
+.home {
+	padding-top:5px;
+	padding-left:5px;
+}
+	@keyframes type {
+	 0%{width: 0;}
+	100%{ width: 100; } 
+		
+	}
+}

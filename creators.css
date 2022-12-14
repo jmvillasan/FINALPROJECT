@@ -1,0 +1,88 @@
+*{
+	padding:0;
+	margin:0;
+}
+.jans{
+	height:250px;
+	width:250px;
+	border-radius:50%;
+	position:absolute;
+	top:30%;
+	left:45%;
+	border-radius:50%;
+	border:10px solid;
+	display:block;
+	filter:brightness(1.2) saturate(130%);
+}
+.janskie {
+	width:250px;
+	height:250px;
+	position:absolute;
+	top:31.4%;
+	left:45.8%;
+	border-radius:50%;
+	background-color:#00BFFF;
+	opacity:0;
+	transition:0.5s ease;
+}
+.container:hover .janskie {
+	opacity:1;
+}
+.janskie .appear {
+	position:absolute;
+	top:100px;
+	font-family:agency fb;
+	font-size:35px;
+	left:25px;
+	font-weight:bold
+}
+.bg {
+	width:100%;
+	height:100px;
+	background-color:black;
+	position:absolute;
+	top:56px;
+	z-index:1;
+	}
+.realization2 {
+	position:absolute;
+	color:cyan;
+	top:64px;
+	left:575px;
+	z-index:10;
+	font-family:agency fb;
+	font-size:70px;
+	animation:typereligion 5s steps(60,end);
+	overflow:hidden;
+	width:50%; 
+	height:80px;
+	
+}
+@keyframes typereligion {
+	0% {
+		width:0%
+	}
+	
+}
+
+span {
+	animation:blink 1s infinite;
+}
+@keyframes blink {
+	to{
+		opacity:.0;
+	}
+}
+.background {
+	height:100%;
+	width:100%;
+}
+.woah {
+	height:100%;
+	width:100%;
+	top:0;
+	background-color:rgba(0,0,0,0.1);
+	position:absolute; 	
+	outline:dashed red;
+	background-attachment:fixed;
+}
